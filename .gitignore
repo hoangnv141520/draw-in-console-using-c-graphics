@@ -1,0 +1,37 @@
+# Build output and CMake state
+/build/
+/out/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Testing/
+cmake_install.cmake
+compile_commands.json
+
+# vcpkg and compiler artifacts
+/vcpkg_installed/
+*.obj
+*.o
+*.pdb
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and editor files
+.vs/
+.vscode/
+*.sln
+*.vcxproj*
+*.user
+*.swp
+
+# Generated media and cache files
+*.dvc
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+__pycache__/
+*.py[cod]
