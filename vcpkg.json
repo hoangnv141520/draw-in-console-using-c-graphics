@@ -1,0 +1,13 @@
+{
+  "name": "drawvideo",
+  "version-string": "0.1.0",
+  "builtin-baseline": "8f57207a8a1b96a4a864e11f85d57b0a252b3ac3",
+  "dependencies": [
+    "sdl3",
+    {
+      "name": "opencv4",
+      "default-features": false
+    },
+    "catch2"
+  ]
+}
